@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mtks.finalproject.dudewheresmycar.gpslocation.GPS">
+
+    <Button
+        android:id="@+id/button333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update_Location"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="3dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="19dp"
+        android:text="Lontitude"
+        android:layout_below="@+id/button333"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tw"
+        android:layout_marginEnd="67dp"
+        android:text="Latitude" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="203dp"
+        android:text="Current parking lot is empty or not"
+        android:layout_below="@+id/tw"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tw"
+        android:layout_below="@+id/status"
+        android:layout_marginTop="63dp"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tw1"
+        android:layout_alignTop="@+id/yes"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Address" />
+</RelativeLayout>

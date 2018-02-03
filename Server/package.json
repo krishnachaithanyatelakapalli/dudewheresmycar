@@ -1,0 +1,13 @@
+{
+  "name": "Server-Example",
+  "version": "0.0.1",    
+  "private": true,
+  "dependencies": {
+     "co": "latest",
+     "mongodb": "latest",
+     "url": "latest"
+   },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
